@@ -8,7 +8,7 @@ fetch('./data/destinations.json')
             destinationlist.innerHTML += `
             <figure id="${destination.id}">
             <img src="./img/${destination.image}" alt="">
-            <div>
+            <div class="fav">
             <span><i class="fa-regular fa-heart"></i></span>
             <a href="/destination.html?id=${destination.id}">More</a>
             </div>

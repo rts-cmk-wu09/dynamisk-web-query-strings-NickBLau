@@ -31,6 +31,7 @@ align-self: center;
 
 h1{
     font-size: 3rem;
+    text-align: center;
 }
 
 h2{
@@ -48,4 +49,33 @@ section p {
 
 section ul {
     width: 500px;
+}
+
+figure{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+figure span{
+    position: absolute;
+    top: 25px;
+    right: 30px;
+}
+
+
+.fa-heart{
+    color: red;
+    cursor: pointer;
+
+}
+
+span{
+    color: red;
+}
+
+a{
+    color: black    ;
+    text-decoration: none;
+    
 }
